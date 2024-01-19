@@ -13,10 +13,10 @@ function Welcome1() {
                                 <div className="section-block-title">
                                     <div className="section-title">   
                                         <article className="section-title-body">
-                                            <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">Welcome</h1>
+                                            <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">Bienvenue dans l'univers captivant de C-One </h1>
                                             <div className="section-col wow fadeInUp animated" data-wow-duration="1.5s"></div>
                                             <p className="head-text wow fadeInUp animated" data-wow-duration="1.5s">
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            DJ généraliste basé en région parisienne avec une passion inébranlable pour la musique. Fort de 18 années d'expérience envoûtante, je suis prêt à transformer n'importe quelle occasion en une expérience sonore mémorable.
                                             </p>
                                         </article>
                                     </div>

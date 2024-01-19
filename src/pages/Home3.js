@@ -9,7 +9,6 @@ import Portfolio3 from './../components/Portfolio/Portfolio3';
 import Team from './../components/Team';
 import Contact3 from './../components/Contact/Contact3';
 import Newsletter2 from './../components/Newsletter/Newsletter2';
-import Map from './../components/Map';
 import Footer3 from './../components/Footer/Footer3';
 
 function Home3() {
@@ -27,7 +26,6 @@ function Home3() {
       <Portfolio3/>
       <Team/>
       <Contact3/>
-      <Map/>
       <Footer3/>
     </>
   );

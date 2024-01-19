@@ -3,10 +3,9 @@ import Header1 from './../components/Header/Header1';
 import Welcome1 from './../components/Welcome/Welcome1';
 import About1 from './../components/About/About1';
 import Service1 from './../components/Service/Service1';
-import Portfolio1 from './../components/Portfolio/Portfolio1';
+import Portfolio2 from './../components/Portfolio/Portfolio2';
 import Contact1 from './../components/Contact/Contact1';
-import Newsletter1 from './../components/Newsletter/Newsletter1';
-import Map from './../components/Map';
+// import Newsletter1 from './../components/Newsletter/Newsletter1';
 import Footer1 from './../components/Footer/Footer1';
 import SimpleSlider1 from './../components/Sliders/Slick-slider1'
 function Home1() {
@@ -20,10 +19,9 @@ function Home1() {
       <Welcome1/>
       <About1/>
       <Service1/>
-      <Portfolio1/>
+      <Portfolio2/>
       <Contact1/>
-      <Newsletter1/>
-      <Map/>
+      {/* <Newsletter1/> */}
       <Footer1/>
     </>
   );

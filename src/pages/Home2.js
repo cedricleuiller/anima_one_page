@@ -8,7 +8,6 @@ import Blogs2 from './../components/Blogs/Blogs2';
 import Clients from './../components/Clients';
 import Contact2 from './../components/Contact/Contact2';
 import Newsletter2 from './../components/Newsletter/Newsletter2';
-import Map from './../components/Map';
 import Footer2 from './../components/Footer/Footer2';
 import SimpleSlider2 from './../components/Sliders/Slick-slider2'
 import bg_vide from './../videos/bigway.mp4'
@@ -31,7 +30,6 @@ function Home2() {
       <Blogs2/>
       <Clients/>
       <Contact2/>
-      <Map/>
       <Footer2/>
     </>
   );
