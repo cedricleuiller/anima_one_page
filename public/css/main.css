@@ -164,7 +164,7 @@ a:focus {
   outline: none;
 }
 
-p {
+p , .detailsListFormules{
   color: #999;
   font-family: 'Opensans', sans-serif;
   font-size: 16px;
@@ -1722,7 +1722,6 @@ video#cover-video {
 
 #header .navbar-default .navbar-toggle,
 #header .navbar-single .navbar-toggle {
-
   margin-right: 30px;
   border-radius: 0;
   position: relative;
@@ -1962,6 +1961,18 @@ margin:0 0 25px;
   margin: 0 auto 50px;
 }
 
+#about .section-title .section-col {
+  background-color:  rgba(129, 52, 183, 0.5);
+}
+
+#services .section-title .section-col {
+  background-color:  rgba(106, 196, 50, 0.5);
+}
+
+#works .section-title .section-col {
+  background-color:  rgba(106, 196, 50, 0.5);
+}
+
 .section-title {
   position: relative;
 }
@@ -2100,7 +2111,7 @@ margin:0 0 25px;
   content: "";
   position: absolute;
   width: 150px;
-  border-bottom: 1px solid #b46e3c;
+  border-bottom: 1px solid rgba(0, 217, 253, 0.5);;
   left: 0;
   bottom: 5px;
 }
@@ -2110,7 +2121,7 @@ margin:0 0 25px;
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #b46e3c;
+  background-color:rgba(0, 217, 253, 0.5);
   left: 0;
   bottom: 1px;
   -webkit-transform: rotate(45deg);
@@ -2147,7 +2158,7 @@ margin:0 0 25px;
 }
 
 .section-sub-title .section-title-body span {
-  color: #b46e3c;
+  color: rgba(0, 217, 253, 0.5);
 }
 
 .section-sub-title .section-title-body .head-text {
@@ -2422,11 +2433,6 @@ section:hover .img-rotate img {
   min-height: 120px;
 }
 
-.block-feature-icon:hover {
-  /* Effect 2a */
-
-}
-
 .block-feature-icon:hover .hi-icon-effect .hi-icon {
   color: #ffffff;
 }
@@ -2540,7 +2546,7 @@ section:hover .img-rotate img {
 
 .hi-icon {
   display: inline-block;
-  float: left;
+  /* float: left; */
   top: 0;
   cursor: pointer;
   width: 120px;
@@ -2768,8 +2774,8 @@ section:hover .img-rotate img {
 }
 
 .carousel-with-dots .slick-dots .slick-active {
-  background: #b46e3c;
-  border-color: #b46e3c;
+  background: rgba(0, 217, 253, 0.5);;
+  border-color: rgba(0, 217, 253, 0.5);;
 }
 
 .carousel-with-dots .slick-dots li {
@@ -3148,7 +3154,7 @@ section:hover .img-rotate img {
   position: absolute;
   left: 0;
   width: 10px;
-  background-color: rgba(180, 110, 60, 0.7);
+  background-color: rgba(0, 217, 253, 0.5);
   height: 0;
   bottom: 0;
   -webkit-transition: all 0.6s ease;
@@ -3530,7 +3536,7 @@ section:hover .img-rotate img {
 }
 .fucts-block .fuct h2 {
   font-size: 42px;
-  color: #b46e3c;
+  color: rgba(106, 196, 50, 0.5);
   font-weight: 900;
   font-family: 'Opensans', sans-serif;
 }
@@ -4060,6 +4066,10 @@ textarea:focus {
 .contact-icon ul li {
   display: inline-block;
   margin: 0 5px;
+}
+
+.detailsListFormules ul li {
+  list-style: none;
 }
 
 /* ==========================================================================
@@ -5032,7 +5042,7 @@ textarea:focus {
 
 .bg-50-l {
   position: absolute;
-  width: 50%;
+  width: 65%;
   height: 100%;
   left: 0;
   top: 0;
@@ -5315,7 +5325,7 @@ span.dropcap {
 }
 
 #portfolio.single-bg .section-block-title {
-  background-image: url("../img/bg/bg5.jpg");
+  background-image: url("../img/bg/bgWorks.png");
   background-size: cover;
   background-position: center center;
 }
@@ -5340,7 +5350,7 @@ span.dropcap {
 
 #contact,
 #contact .bg-blur {
-  background-image: url("../img/bg/bg6.jpg");
+  background-image: url("../img/bg/bgContact.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

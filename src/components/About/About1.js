@@ -1,12 +1,12 @@
 import React from 'react'
-import bg_vide from '../../videos/bigway.mp4'
+import bgAbout from '../../videos/bgAbout.mp4'
 function About1() {
     
     return (
         <>
             <section id="about" className="bg-non-fixed">
             <video autoPlay loop muted className="bg_video">
-                <source src={bg_vide} type="video/mp4"></source>
+                <source src={bgAbout} type="video/mp4"></source>
             </video>
             <div className="bg-inner-dark"></div>
             <div className="bg-50-r"></div>
@@ -18,10 +18,10 @@ function About1() {
                             <div className="section-block-title">
                                 <div className="section-title">   
                                     <article className="section-title-body mobile-mb-0">
-                                        <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">About</h1>
+                                        <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">A propos</h1>
                                         <div className="section-col wow fadeInUp animated" data-wow-duration="1.5s"></div>
                                         <p className="head-text wow fadeInUp animated" data-wow-duration="1.5s">
-                                            Ut enim ad minim veniam, quis nostrud  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        En tant que DJ généraliste, mon objectif est simple : créer une ambiance unique qui transcende les générations et les goûts musicaux. Je suis spécialisé dans l'adaptation de playlists, m'assurant que chaque morceau résonne avec la personnalité de votre événement. Que ce soit pour une soirée privée, un mariage, une soirée d'entreprise ou tout autre événement spécial, je m'efforce de faire vibrer la piste de danse et de marquer les esprits.
                                         </p>
                                     </article>
                                 </div>
@@ -33,20 +33,42 @@ function About1() {
                         <div className="pad-l-45 pad-r-45 block">
 
                             <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
-                                <h4 className="widget-title">The best one page template</h4>
+                                <h4 className="widget-title">Engagement envers la satisfaction du client</h4>
                                 <p>
-                                    Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                En tant que DJ généraliste, mon objectif premier est de créer une ambiance unique qui transcende les générations et les goûts musicaux. Mon approche sérieuse et professionnelle se reflète dans chaque aspect de mes services. Avant chaque événement, je m'engage dans un échange sérieux et impliqué avec mes clients pour comprendre leurs besoins et leurs attentes spécifiques.
+
+                                </p>
+                            </div>
+                            <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
+                                <h4 className="widget-title">Personnalisation de la Playlist</h4>
+                                <p>
+                                Je suis spécialisé dans l'adaptation de playlists, veillant à ce que chaque morceau résonne avec la personnalité de votre événement. Pour les mariages et anniversaires, je travaille en étroite collaboration avec vous pour élaborer une trame musicale qui reflète l'essence de votre célébration.
+
+                                </p>
+                            </div>
+                            <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
+                                <h4 className="widget-title">Organisation minutieuse pour une ambiance parfaite</h4>
+                                <p>
+                                L'organisation est la clé d'une ambiance parfaite. Je m'implique dans la planification minutieuse de la soirée, en discutant des moments-clés et des transitions musicales pour garantir une expérience fluide et inoubliable.
+
+                                </p>
+                            </div>
+                            <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
+                                <h4 className="widget-title">Investissement professionnel et créations d'instants mémorables</h4>
+                                <p>
+                                En tant que professionnel engagé, je m'investis pleinement dans chaque événement. Mon équipement de pointe, combiné à une connaissance approfondie des dernières tendances musicales, garantit une prestation de qualité. Mon investissement va au-delà de la musique, car je suis déterminé à satisfaire pleinement mes clients.
+
                                 </p>
                             </div>
                             
-                            <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
-                            <div className="clearfix"></div>
+                            {/* <div className="widget-block wow fadeInDown animated" data-wow-duration="1.5s">
+                                <div className="clearfix"></div>
                                 
                                 <div className="progress">
                                     <div className="progress-bar" style={{width: "70%"}} >
 
                                     </div>
-                                    <span className="skill-value">Graphic Design <span> 70%</span></span>
+                                    <span className="skill-value">Personnalisation de la Playlist <span> 70%</span></span>
                                 </div>
                                 
                                 <div className="progress">
@@ -70,7 +92,7 @@ function About1() {
                                     <span className="skill-value">Java Scripting <span> 85%</span></span>
                                 </div>
                                 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
