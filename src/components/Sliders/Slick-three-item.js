@@ -1,6 +1,10 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React, { Component } from "react"
+import Slider from "react-slick"
 import PortfolioItem from './../Portfolio/PortfolioItem'
+import {Videos} from '../../videos/videosSlider'
+
+console.log(Videos);
+
 export default class SliderThreeItem extends Component {
 
   render() {
@@ -33,6 +37,7 @@ export default class SliderThreeItem extends Component {
         }
       ]
     };
+    
     return (
       <>
      
