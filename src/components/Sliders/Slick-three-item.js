@@ -3,6 +3,8 @@ import Slider from "react-slick"
 import PortfolioItem from './../Portfolio/PortfolioItem'
 import { videos } from '../../videos/videosSlider'
 
+console.log(videos);
+
 export default class SliderThreeItem extends Component {
 
   render() {
@@ -45,7 +47,7 @@ export default class SliderThreeItem extends Component {
             videos.map((video) => (
               <div key={video.id}>
                 <PortfolioItem videoTitle={video.title} videoDesc={video.description}
-                  videoSrc={video.url} />
+                  videoSrc={process.env.PUBLIC_URL + '/videosSlider/' + video.url} />
               </div>
             ))
           }

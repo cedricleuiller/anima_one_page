@@ -391,9 +391,16 @@ blockquote p,
     text-transform: uppercase;
 }
 .block-popup span{
-  color: #b46e3c;
+  color: rgba(0, 217, 253, 0.5);
   font-style:italic;
 }
+
+.block-popup video {
+  height: 800px;
+  padding: 20px;
+}
+
+
 .close-btn{
   position: absolute;
   top: 8px;
@@ -3143,6 +3150,7 @@ section:hover .img-rotate img {
 
 .portfolio-cell .portfolio-item {
   position: relative;
+  margin: 0 5px;
 }
 
 .portfolio-cell .portfolio-item.h320 {
@@ -3181,10 +3189,12 @@ section:hover .img-rotate img {
   transition: all 0.3s ease;
   z-index: 12;
 }
+
 .portfolio-item img {
   max-width: 100%;
     height: auto;
 }
+
 .portfolio-cell .portfolio-item .image-overlay .link {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -3234,7 +3244,7 @@ section:hover .img-rotate img {
 
 .portfolio-cell .portfolio-item .image-overlay .image-overlay-content p {
   text-align: center;
-  color: rgba(180, 110, 60, 1);
+  color: rgba(0, 217, 253, 0.5);
   margin: 0;
   font-style: italic;
 }
