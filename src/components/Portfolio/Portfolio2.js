@@ -1,6 +1,7 @@
 import React from 'react'
 import SliderThreeItem from './../Sliders/Slick-three-item'
-import Featured from '../Featured/Featured'
+// import Featured from '../Featured/Featured'
+import Team from '../Team';
 
 function Portfolio2() {
     return (
@@ -22,7 +23,8 @@ function Portfolio2() {
                     <div className="clearfix h50"></div>
                 </div>
             </div>
-            <Featured/>
+            {/* <Featured/> */}
+            <Team />
         </section>
    
         </>

@@ -3,8 +3,6 @@ import Slider from "react-slick"
 import PortfolioItem from './../Portfolio/PortfolioItem'
 import { videos } from '../../videos/videosSlider'
 
-console.log(videos);
-
 export default class SliderThreeItem extends Component {
 
   render() {
@@ -51,34 +49,7 @@ export default class SliderThreeItem extends Component {
               </div>
             ))
           }
-          {/* <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"My Hobby Is Reading"} portfolioInfo={"Graphic Design"} 
-              portfolioSrc={"img/preview/blog1.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Circle 3D Projects"} portfolioInfo={"3D Object Design"} 
-              portfolioSrc={"img/preview/blog2.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Hi Tech Book Pro"} portfolioInfo={"Hi Tech Design"} 
-              portfolioSrc={"img/preview/blog3.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Photo Night City"} portfolioInfo={"Photo Design"} 
-              portfolioSrc={"img/preview/blog4.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Photo Tool Objects"} portfolioInfo={"Photo Design"} 
-              portfolioSrc={"img/preview/blog5.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"iPhone from Apple"} portfolioInfo={"3D Object Design"} 
-              portfolioSrc={"img/preview/blog6.jpg"} portfolioAlt={"blog"}/>
-          </div>
-          <div className="item">
-              <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Easy to use Tablets"} portfolioInfo={"Hi Tech Design"} 
-              portfolioSrc={"img/preview/blog7.jpg"} portfolioAlt={"blog"}/>
-          </div> */}
+          
         </Slider>
 
       </>

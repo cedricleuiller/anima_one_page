@@ -11,7 +11,6 @@ function PortfolioItem({ videoTitle, videoDesc, videoSrc }) {
                     <div className="">
                         <div className="row gx-5 d-flex align-items-center">
                             <div className="col-md-6">
-                                {/* <img alt="" src={portfolioSrc} className="img-fluid image"/> */}
                                 <video controls className='img-fluid image' loop muted height='800px'>
                                     <source src={videoSrc} type='video/mp4' />
                                     Votre navigateur ne prend pas en compte les vidéos HTML5.
@@ -39,7 +38,6 @@ function PortfolioItem({ videoTitle, videoDesc, videoSrc }) {
                         <source src={videoSrc} type='video/mp4' />
                         Votre navigateur ne prend pas en compte les vidéos HTML5.
                     </video>
-                    {/* <img src={portfolioSrc} alt={portfolioAlt} className="img-responsive"/> */}
                 </div>
             </div>
         </>
