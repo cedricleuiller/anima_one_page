@@ -15,7 +15,7 @@ function Team() {
                                 <h1 className="head-title">Mon équipe / Partenaires</h1>
                             </article>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center justify-content-around">
                             {
                                 Partners.map((partner) => (
                                     <div key={partner.id} className="col-lg-3 col-md-6 col-sm-12">

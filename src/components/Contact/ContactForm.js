@@ -84,7 +84,7 @@ function ContactForm() {
                     <form id="MyContactForm" name="MyContactForm" method="post" onSubmit={doSubmit}>
                         <p className="name">
                             
-                            <input type="text" name="name" id="name" placeholder="Your Name*" value={Name} onChange={(e)=>setName(e.target.value)}/>
+                            <input type="text" name="name" id="name" placeholder="Votre Nom*" value={Name} onChange={(e)=>setName(e.target.value)}/>
                             <label htmlFor="name" id="nameLb">
                             
                               <span className="error">{NameError.errText}</span>
@@ -94,7 +94,7 @@ function ContactForm() {
                             </label>
                         </p>
                         <p>
-                            <input type="text" name="email" id="email" placeholder="Your Email*" value={Email} onChange={(e)=>setEmail(e.target.value)}/>
+                            <input type="text" name="email" id="email" placeholder="Votre Email*" value={Email} onChange={(e)=>setEmail(e.target.value)}/>
                             <label htmlFor="email" id="emailLb">
                             
                              <span className="error error1">{EmailError.errText}</span> 
@@ -102,11 +102,11 @@ function ContactForm() {
                             </label> 
                         </p>
                         <p> 
-                            <input type="text" name="phone" id="phone" placeholder="Your Telephone"  value={Phone} onChange={(e)=>setPhone(e.target.value)}/>
+                            <input type="text" name="phone" id="phone" placeholder="Votre Téléphone"  value={Phone} onChange={(e)=>setPhone(e.target.value)}/>
                             <label htmlFor="phone" id="phoneLb"></label>
                         </p>
                         <p className="textarea">
-                            <textarea name="message" id="message" placeholder="Your Message*" rows="4"  value={Text} onChange={(e)=>setText(e.target.value)}></textarea>
+                            <textarea name="message" id="message" placeholder="Votre Message: date de prestation, besoin spécifique ou autres demandes.*" rows="4"  value={Text} onChange={(e)=>setText(e.target.value)}></textarea>
                             <label htmlFor="message" id="messageLb">
                             
                               <span className="error">{TextError.errText}</span> 
@@ -115,7 +115,7 @@ function ContactForm() {
                         </p>
                         <div className="clearfix"></div>
                         <div className="text-center">
-                            <input type="submit" className="contact-btn btn-move t2" value = "Send Message"/>
+                            <input type="submit" className="contact-btn btn-move t2" value = "Envoyer Message"/>
                             
                         </div>
                     </form>

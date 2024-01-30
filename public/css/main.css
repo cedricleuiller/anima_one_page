@@ -159,7 +159,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #b46e3c;
+  color: rgba(0, 217, 253, 0.5);
   text-decoration: none;
   outline: none;
 }
@@ -1976,8 +1976,8 @@ margin:0 0 25px;
   background-color:  rgba(106, 196, 50, 0.5);
 }
 
-#works .section-title .section-col {
-  background-color:  rgba(106, 196, 50, 0.5);
+#contact .section-title .section-col {
+  background-color:  rgba(255, 255, 255, 0.5);
 }
 
 .section-title {
@@ -2118,9 +2118,13 @@ margin:0 0 25px;
   content: "";
   position: absolute;
   width: 150px;
-  border-bottom: 1px solid rgba(0, 217, 253, 0.5);;
+  border-bottom: 1px solid rgba(0, 217, 253, 0.5);
   left: 0;
   bottom: 5px;
+}
+
+#footer .section-sub-title .head-title:after {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .section-sub-title .head-title:before {
@@ -2136,6 +2140,10 @@ margin:0 0 25px;
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+#footer .section-sub-title .head-title:before {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .section-sub-title h4.head-title {
@@ -3357,13 +3365,13 @@ section:hover .img-rotate img {
   -webkit-backface-visibility: hidden;
 }
 
-.author-block .left-icon .author-icon {
-  position: absalute;
-}
+/* .author-block .left-icon .author-icon {
+  position: absolute;
+} */
 
 .author-block .left-icon .author-icon li {
   display: inline-block;
-  /*background-color: rgba(34, 34, 34, 0.9);*/
+  /* background-color: rgba(34, 34, 34, 0.9); */
   margin: 2px;
   text-align: center;
 }
@@ -3445,15 +3453,11 @@ section:hover .img-rotate img {
 }
 
 .author-block .figure-hover-overlay .author-information .author-prof {
-  color: #b46e3c;
+  color: rgba(0, 217, 253, 0.5);
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   font-style: italic;
   margin:0 0 20px 0;
-}
-
-.author-block:hover {
-  border-color: #b46e3c;
 }
 
 .author-block:hover .figure-hover-overlay .author-information .author-prof {
@@ -3469,7 +3473,7 @@ section:hover .img-rotate img {
 }
 
 .author-block:hover .figure-hover-overlay .author-information {
-  background-color: #b46e3c;
+  background-color: rgba(0, 217, 253, 0.5);
 }
 .widget-block .progress:last-child{margin: 50px 0;}
 .progress {
@@ -3848,7 +3852,7 @@ form textarea {
   border: none;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
-  color: #b46e3c;
+  color: rgba(255, 255, 255, 0.5);
   line-height: inherit;
   padding: 10px 20px;
   width: 100%;
@@ -3886,7 +3890,7 @@ form textarea:focus {
 
 input:focus,
 textarea:focus {
-  border-color: #b46e3c;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 ::-webkit-input-placeholder {
@@ -3994,10 +3998,10 @@ textarea:focus {
 }
 
 .contact-btn:hover {
-  background: #b46e3c;
+  background: rgba(255, 255, 255, 0.5);
   color: #fff;
   text-decoration: none;
-  border-color: #b46e3c;
+  border-color: black;
 }
 
 .contact-btn.dark {
@@ -4386,7 +4390,7 @@ textarea:focus {
 
 .widget-title i {
   margin-right: 15px;
-  color: #b46e3c;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
 }
 .widget-block.right p{
@@ -5476,4 +5480,8 @@ span.dropcap {
 #footer .footer-bottom {
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#footer .footer-bottom img {
+  height: 60px;
 }

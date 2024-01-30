@@ -1,15 +1,5 @@
 import React from 'react'
 import ContactForm from './../Contact/ContactForm'
-import {FacebookShareButton,
-    PinterestShareButton,
-    TelegramShareButton,
-    LinkedinShareButton,
-    TwitterShareButton} from "react-share";
-import {FacebookIcon,
-    PinterestIcon,
-    TelegramIcon,
-    LinkedinIcon,
-    TwitterIcon} from "react-share";
 function Contact1() {
     return (
         <>
@@ -26,41 +16,9 @@ function Contact1() {
                                         <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">Contact</h1>
                                         <div className="section-col wow fadeInUp animated" data-wow-duration="1.5s"></div>
                                         <p className="head-text wow fadeInUp animated" data-wow-duration="1.5s">
-                                            We wait you with happy time. Contact us with socials
+                                            Nous vous attendons avec impatience. Contactez-nous par mail ou téléphone.
                                         </p>
                                         <div className="h25"></div>
-                                        <div className="contact-icon wow fadeInUp animated" data-wow-duration="1.5s">
-                                            <ul className="list-unstyled">
-                                                <li>
-                                                    <FacebookShareButton url="https://youtu.be/3aSb1WPK4Kg" 
-                                                    quote= "Anema" hashtag="#anema">
-                                                        <FacebookIcon round={true} size={38}></FacebookIcon>
-                                                    </FacebookShareButton>
-                                                    
-                                                </li>
-                                                <li>
-                                                    <PinterestShareButton url="https://youtu.be/3aSb1WPK4Kg" media="https://youtu.be/3aSb1WPK4Kg">
-                                                        <PinterestIcon round={true} size={38}></PinterestIcon>
-                                                    </PinterestShareButton>    
-                                                </li>  
-                                                <li>
-                                                    <LinkedinShareButton url="https://youtu.be/3aSb1WPK4Kg" >
-                                                        <LinkedinIcon round={true} size={38}></LinkedinIcon>
-                                                    </LinkedinShareButton>    
-                                                </li>
-                                                <li>
-                                                    <TwitterShareButton url="https://youtu.be/3aSb1WPK4Kg">
-                                                        <TwitterIcon round={true} size={38}></TwitterIcon>
-                                                    </TwitterShareButton>    
-                                                </li>
-                                                <li>
-                                                    <TelegramShareButton url="https://youtu.be/3aSb1WPK4Kg">
-                                                        <TelegramIcon round={true} size={38}></TelegramIcon>
-                                                    </TelegramShareButton>    
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        
                                     </article>
                                 </div>
                             </div>
@@ -75,16 +33,14 @@ function Contact1() {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="widget-block mobile-center">
-                                        <h4 className="widget-title"><i className="ion-android-pin"></i>Adress:</h4>
-                                        <p>MosaicDesign Web Design Studio<br/> Avanue street 255, NA</p>
+                                        <h4 className="widget-title"><i className="ion-android-pin"></i>Localiser sur :</h4>
+                                        <p>Seine-Saint-Denis<br/> 93140 Bondy</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="widget-block mobile-center">
-                                        <h4 className="widget-title"><i className="ion-android-call"></i>Phone:</h4>
-                                        <p>(10 808) 321-1785-952<br/>
-                                            (10 808) 321-1785-953
-                                        </p> 
+                                        <h4 className="widget-title"><i className="ion-android-call"></i>Téléphone :</h4>
+                                        <p>+33 6 59 75 29 02</p> 
                                     </div>
                                 </div>
                             </div>
