@@ -11,7 +11,7 @@ function Footer4() {
                         <article className="footer-info-block">
                             <div className="section-sub-title">
                                 <article className="section-title-body white">
-                                    <h4 className="head-title">Résumé</h4>
+                                    <h4 className="head-title">En résumé</h4>
                                 </article>
                             </div>
                             <p>DJ C-One passionné de la musique est toujours prêt à transformer n'importe quelle occasion en une expérience sonore mémorable.</p>
