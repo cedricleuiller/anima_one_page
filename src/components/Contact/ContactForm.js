@@ -172,7 +172,6 @@ function ContactForm() {
                                 />
                                 <br />
                                 <input type="submit" className="contact-btn btn-move t2" value="Envoyer Message" />
-
                             </div>
                         </form>
                     </div>
