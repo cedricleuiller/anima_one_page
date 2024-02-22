@@ -45,7 +45,6 @@ function Contact1() {
                                 </div>
                             </div>
                             <ContactForm/>
-                            
                         </div>
                     </div>
 

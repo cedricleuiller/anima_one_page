@@ -26,6 +26,7 @@ function Team() {
                                                 <div className="author-information">
                                                     <h4>{partner.name}</h4>
                                                     <p className="author-prof">{partner.job}</p>
+                                                    <p className=''>{partner.phone}</p>
                                                     <a href={partner.website}>{partner.website}</a>
                                                 </div>
 

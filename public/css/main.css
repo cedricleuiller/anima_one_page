@@ -5054,9 +5054,40 @@ textarea:focus {
   background-position: center center;
 }
 
-.bg-50-l {
+.bg-65-l {
   position: absolute;
   width: 65%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(34, 34, 34, 0.9);
+}
+
+.bg-65-l:after {
+  content: "";
+  border-top: 100px solid transparent;
+  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid transparent;
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+
+.bg-65-l:before {
+  content: "";
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid transparent;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.bg-50-l {
+  position: absolute;
+  width: 50%;
   height: 100%;
   left: 0;
   top: 0;

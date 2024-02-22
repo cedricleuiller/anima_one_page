@@ -6,7 +6,7 @@ export const Partners = [
         job: "Dj",
         instagram: "https://www.instagram.com/dj_titann/",
         phone: "07 68 15 65 75",
-        website: "site web en construction",
+        website: null ,
     }, {
         id: 2,
         picture: "img/florian-photographe.jpg",
@@ -15,5 +15,13 @@ export const Partners = [
         instagram: "https://www.instagram.com/florianroquesphotographe/",
         phone: "06 79 03 31 80",
         website: "https://www.florian-roques.com",
+    }, {
+        id: 3,
+        picture: "img/nicolas-lilliu.jpeg",
+        name: "Nicolas Lilliu",
+        job: "Chanteur",
+        instagram: "https://www.instagram.com/nicolilliu/",
+        phone: "06 79 03 31 80",
+        website: null,
     },
 ]

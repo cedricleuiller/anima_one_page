@@ -50,7 +50,7 @@ function Service1() {
                 <source src={bgServices} type="video/mp4"></source>
             </video>
             <div className="bg-inner-dark2"></div>
-            <div className="bg-50-l"></div>
+            <div className="bg-65-l"></div>
             
             <div className="container-fluid">
                 <div className="row">
