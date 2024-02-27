@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../images/Base-logo-blanc-400w-250h.png'
 
-function Footer4() {
+function Footer() {
     return (
         <>
         <footer id="footer">
@@ -36,4 +36,4 @@ function Footer4() {
     )
 }
 
-export default Footer4
+export default Footer

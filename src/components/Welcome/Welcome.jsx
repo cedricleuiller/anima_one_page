@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Welcome1() {
+function Welcome() {
     return (
         <section>
             <div className=" color-scheme-2 ">
@@ -31,4 +31,4 @@ function Welcome1() {
     )
 }
 
-export default Welcome1
+export default Welcome

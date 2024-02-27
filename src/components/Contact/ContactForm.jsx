@@ -22,41 +22,41 @@ function ContactForm() {
     init(process.env.REACT_APP_API_KEY_EMAILJS);
 
     const form = useRef();
-    
+
     const Validate = () => {
         const nameError = {};
         const emailError = {};
         const textError = {};
         let isValid = true;
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        
+
         const isValidEmail = (email) => {
             return emailRegex.test(email);
         };
-        
+
         if (name.trim().length < 1) {
-            
+
             nameError.errText = "*Nom Requis";
             isValid = false
         }
         if (email.trim().length < 1) {
-            
+
             emailError.errText = "*Email Requis";
             isValid = false;
         }
-        
-        if(!isValidEmail(email)) {
+
+        if (!isValidEmail(email)) {
             emailError.errText = "*Email Invalide"
             isValid = false
         }
-  
+
         if (phone.trim().length > 0) {
             const cleanedPhone = phone.replace(/\s/g, "");
             if (isNaN(cleanedPhone) || cleanedPhone.length !== 10) {
                 phoneError.errText = "*numéro invalide."
                 isValid = false;
             }
-        }   
+        }
         if (text.trim().length < 1) {
 
             textError.errText = "*Message  Requis"
@@ -96,10 +96,9 @@ function ContactForm() {
 
         const isValid = Validate();
         if (isValid) {
-            //    ------   rady ---------
 
-            // setModalIsOpen(true);
-            
+            setModalIsOpen(true);
+
             emailjs.send('service_5mfwx4h', 'DjContactFormId', templateParams).then(
                 (response) => {
                     console.log('SUCCESS!', response.status, response.text);
@@ -131,41 +130,31 @@ function ContactForm() {
                     <div id="MainContent">
                         <form id="MyContactForm" name="MyContactForm" method="post" onSubmit={doSubmit} ref={form}>
                             <p className="name">
-
                                 <input type="text" name="name" id="name" placeholder="Votre Nom*" value={name} onChange={(e) => setName(e.target.value)} />
                                 <label htmlFor="name" id="nameLb">
-
                                     <span className="error">{nameError.errText}</span>
-
                                 </label>
                             </p>
                             <p>
                                 <input type="text" name="email" id="email" placeholder="Votre Email*" value={email} onChange={(e) => setEmail(e.target.value)} />
                                 <label htmlFor="email" id="emailLb">
-
                                     <span className="error error1">{emailError.errText}</span>
-
                                 </label>
                             </p>
                             <p>
                                 <input type="text" name="phone" id="phone" placeholder="Votre Téléphone (XX XX XX XX XX)" value={phone} onChange={(e) => setPhone(e.target.value)} />
                                 <label htmlFor="phone" id="phoneLb">
-
                                     <span className="error error1">{phoneError.errText}</span>
-
                                 </label>
                             </p>
                             <p className="textarea">
                                 <textarea name="message" id="message" placeholder="Votre Message: date de prestation, besoin spécifique ou autres demandes.*" rows="4" value={text} onChange={(e) => setText(e.target.value)}></textarea>
                                 <label htmlFor="message" id="messageLb">
-
                                     <span className="error">{textError.errText}</span>
-
                                 </label>
                             </p>
                             <div className="clearfix"></div>
                             <div className="text-center">
-
                                 <MyRecaptcha
                                     onChange={handleCaptchaResolved}
                                     ref={recaptchaRef}

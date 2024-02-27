@@ -1,9 +1,8 @@
 import React from 'react'
-import SliderThreeItem from './../Sliders/Slick-three-item'
-// import Featured from '../Featured/Featured'
-import Team from '../Team';
+import SliderThreeItem from '../Sliders/Slick-three-item'
+import Team from '../Team'
 
-function Portfolio2() {
+function Portfolio() {
     return (
         <>
         <section  id="portfolio" className="single-bg">
@@ -12,7 +11,7 @@ function Portfolio2() {
                 <div className="container">
                     <div className="section-sub-title center">
                         <article className="section-title-body white">
-                            <h1 className="head-title">Best <span>Works</span> from us</h1>
+                            <h1 className="head-title">Quelques <span>Vidéos</span> De Soirées</h1>
                         </article>
                     </div>    
                 </div> 
@@ -23,12 +22,10 @@ function Portfolio2() {
                     <div className="clearfix h50"></div>
                 </div>
             </div>
-            {/* <Featured/> */}
             <Team />
         </section>
-   
         </>
     )
 }
 
-export default Portfolio2
+export default Portfolio

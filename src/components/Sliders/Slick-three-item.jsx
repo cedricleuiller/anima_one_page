@@ -38,9 +38,7 @@ export default class SliderThreeItem extends Component {
 
     return (
       <>
-
         <Slider {...settings}>
-
           {
             videos.map((video) => (
               <div key={video.id}>
@@ -49,9 +47,7 @@ export default class SliderThreeItem extends Component {
               </div>
             ))
           }
-          
         </Slider>
-
       </>
     );
   }
