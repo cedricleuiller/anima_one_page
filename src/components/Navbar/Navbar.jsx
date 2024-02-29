@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
-import logo from './../../images/Base-logo-blanc-400w-250h.png'
+// import logo from './../../images/Base-logo-blanc-400w-250h.png'
+const logo = process.env.PUBLIC_URL + '/img/Base-logo-blanc-400w-250h.png'
 
 function Navbar() {
     const [navToggle, setnavToggle] = useState(true);

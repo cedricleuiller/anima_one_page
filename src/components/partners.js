@@ -1,4 +1,4 @@
-export const Partners = [
+export const partners = [
     {
         id: 1,
         picture: "img/dj-titann.jpg",

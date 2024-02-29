@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
-import PortfolioItem from './../Portfolio/PortfolioItem'
+import PortfolioItem from '../Portfolio/PortfolioItem'
 import { videos } from '../../videos/videosSlider'
 
 export default class SliderThreeItem extends Component {
@@ -43,7 +43,7 @@ export default class SliderThreeItem extends Component {
             videos.map((video) => (
               <div key={video.id}>
                 <PortfolioItem videoTitle={video.title} videoDesc={video.description}
-                  videoSrc={process.env.PUBLIC_URL + '/videosSlider/' + video.url} />
+                  videoSrc={process.env.PUBLIC_URL + '/videos/videosSlider/' + video.url} />
               </div>
             ))
           }

@@ -21,7 +21,6 @@ function Welcome() {
                                         </article>
                                     </div>
                                 </div>  
-
                             </div> 
                         </div>
                     </div>

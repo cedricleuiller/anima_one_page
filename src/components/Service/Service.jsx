@@ -1,9 +1,9 @@
 import React from 'react'
-import bgServices from '../../videos/bgServices.mp4'
+
+const bgServices = process.env.PUBLIC_URL + '/videos/bgServices.mp4'
 const services = [
     {
         _id: '001',
-        classIcon: 'ion-ios-pie-outline',
         title: 'Bronze',
         tarif: 950,
         text:
@@ -11,14 +11,12 @@ const services = [
     },
     {
         _id: '002',
-        classIcon: 'ion-ios-printer-outline',
         title: 'Silver',
         tarif: 1200,
         text: "Jusqu'à 100 personnes \n Coordination avec les prestataires (traiteur, artistes etc) \n Playlist sur mesure \n Musique durant le repas \n 2 enceintes + caisson de basse \n 1 micro sans fil \n Régie DJ \n Lumières pistes de dance \n Éclairage au sol \n Machine à brouillard",
     },
     {
         _id: '003',
-        classIcon: 'ion-ios-reverse-camera-outline',
         title: 'Gold',
         tarif: 1650,
         text: "150 personnes et plus \n Suivi de projet bimensuelle \n Coordination avec les prestataires \n Playlist sur mesure \n Musique durant le repas \n Enceintes + caisson de basse \n Sonorisation cocktails extérieurs \n 2 micros sans fils \n Régie DJ \n Projecteur et écran disponible \n Lumières pistes de dance \n Éclairage de façades \n Éclairage au sol \n Machine à brouillard",
@@ -46,7 +44,7 @@ function Service() {
                                             <div className="section-col wow fadeInUp animated" data-wow-duration="1.5s"></div>
                                             <p className="head-text wow fadeInUp animated" data-wow-duration="1.5s">
                                                 Voici les différentes formules de prestations (mariages, anniversaires ou autres événements).
-                                        </p>
+                                            </p>
                                             <div className="h25"></div>
                                             <div className="fucts-block wow fadeInUp animated" data-wow-duration="1.5s">
                                                 <div className="fuct">
@@ -66,7 +64,6 @@ function Service() {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div className="col-md-8 col-sm-12 col-xs-12">
                             <div className="pad-l-45 pad-r-45 block">
@@ -74,7 +71,6 @@ function Service() {
                                     {services.map((service) => (
                                         <div className="col-md-4 col-sm-6 col-xs-12" key={service._id}>
                                             <div className="block-feature">
-                                                <i className={service.classIcon}></i>
                                                 <a href="/">{service.title}</a>
                                                 <p>
                                                     A partir de <span>{service.tarif} €</span>
@@ -84,7 +80,7 @@ function Service() {
                                                     <ul>
                                                         {service.text.split('\n').map((line, key) =>
                                                             <li key={key}>
-                                                                <span>{line}</span>
+                                                                {line}
                                                             </li>
                                                         )}
                                                     </ul>
@@ -95,10 +91,8 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </section>
         </>
     )

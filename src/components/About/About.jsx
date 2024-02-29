@@ -1,5 +1,7 @@
 import React from 'react'
-import bgAbout from '../../videos/bgAbout.mp4'
+
+const bgAbout = process.env.PUBLIC_URL + '/videos/bgAbout.mp4'
+
 function About() {
 
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/Base-logo-blanc-400w-250h.png'
+const logo = process.env.PUBLIC_URL + '/img/Base-logo-blanc-400w-250h.png'
 
 function Footer() {
     return (
@@ -26,6 +26,8 @@ function Footer() {
                         <div className="col-md-4 col-xs-12 col-sm-4">
                             <div className="footer-logo text-center">
                                 <img src={logo} alt="logo"/>
+                                <br/>
+                                <small>©2024 Copyright Cédric Leuiller / Siret : 88948846 00018</small>
                             </div>
                         </div>
                     </div>

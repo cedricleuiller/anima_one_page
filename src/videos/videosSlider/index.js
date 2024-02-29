@@ -3,7 +3,7 @@ export const videos = [
         id: 1,
         url: 'portfolioVideo1.mp4',
         title: 'Giet Snow Dance 2024',
-        description: 'Un séjour au ski organisé par une école de danse avec des rencontres incroyables, des cours de danse en début de matinée et fin d\'après-midi, et une soirée à thême avant de repartir sur une nouvelle journée !!! Séjour ou le chanteur "Nicolas Lilliu nous as fait le plaisir de sa présence et quelques prestations pleines d\'émotions et de partages !"'
+        description: 'Un séjour au ski organisé par une école de danse avec des rencontres incroyables, des cours de danse en début de matinée et fin d\'après-midi, et une soirée à thême avant de repartir sur une nouvelle journée !!! Séjour ou le chanteur "Nicolas Lilliu" nous as fait le plaisir de sa présence et quelques prestations pleines d\'émotions et de partages !'
     }, {
         id: 2,
         url: 'portfolioVideo2.mp4',

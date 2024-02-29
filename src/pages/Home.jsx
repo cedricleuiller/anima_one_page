@@ -9,8 +9,7 @@ import Footer from './../components/Footer/Footer'
 import SimpleSlider from './../components/Sliders/Slick-slider'
 function Home() {
   return (
-    <>
-      
+    <>  
       <div  id="home" className="full-screen-block">
       <Header/>
       <SimpleSlider/>

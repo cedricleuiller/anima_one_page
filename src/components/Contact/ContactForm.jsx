@@ -18,10 +18,12 @@ function ContactForm() {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
+    const form = useRef();
+    const recaptchaRef = useRef();
+
     //Initialisation de la clé EmailJS
     init(process.env.REACT_APP_API_KEY_EMAILJS);
 
-    const form = useRef();
 
     const Validate = () => {
         const nameError = {};
@@ -77,19 +79,12 @@ function ContactForm() {
         message: text,
     }
 
-    const recaptchaRef = useRef();
-    const [captchaResolved, SetCaptchaResolved] = useState(false);
-
-    const handleCaptchaResolved = () => {
-        SetCaptchaResolved(true)
-    }
-
     const doSubmit = (e) => {
         e.preventDefault();
 
-        const recaptchaValue = recaptchaRef.current.getValue();
+        const captchaResolved = recaptchaRef.current.getValue();
 
-        if (!recaptchaValue) {
+        if (!captchaResolved) {
             alert("Veuillez cocher la case : 'Je ne suis pas un robot'.")
             return
         }
@@ -156,7 +151,6 @@ function ContactForm() {
                             <div className="clearfix"></div>
                             <div className="text-center">
                                 <MyRecaptcha
-                                    onChange={handleCaptchaResolved}
                                     ref={recaptchaRef}
                                 />
                                 <br />
