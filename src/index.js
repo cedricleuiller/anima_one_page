@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Template from './pages/Home';
+import Home from './Home/Home';
 ReactDOM.render(
     <>
-       <Template/>
+       <Home/>
     </>,
   document.getElementById('root')
 );

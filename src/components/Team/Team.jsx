@@ -1,5 +1,5 @@
 import React from 'react'
-import { partners } from './partners'
+import { partners } from '../../data/partners/dataPartners'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import LanguageIcon from '@mui/icons-material/Language'
 

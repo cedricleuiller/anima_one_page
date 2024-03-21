@@ -1,6 +1,6 @@
 import React from 'react'
-import SliderThreeItem from '../Sliders/Slick-three-item'
-import Team from '../Team'
+import SliderThreeItem from '../Sliders/SlickThreeItem'
+import Team from '../Team/Team'
 
 function Portfolio() {
     return (

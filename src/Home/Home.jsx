@@ -6,7 +6,7 @@ import Service from './../components/Service/Service'
 import Portfolio from './../components/Portfolio/Portfolio'
 import Contact from './../components/Contact/Contact'
 import Footer from './../components/Footer/Footer'
-import SimpleSlider from './../components/Sliders/Slick-slider'
+import SimpleSlider from '../components/Sliders/SlickSlider'
 function Home() {
   return (
     <>  

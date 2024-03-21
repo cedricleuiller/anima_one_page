@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
 import PortfolioItem from '../Portfolio/PortfolioItem'
-import { videos } from '../../videos/videosSlider'
+import { videos } from '../../data/dataVideos'
 
 export default class SliderThreeItem extends Component {
 
